@@ -11,3 +11,6 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# this is for a development helper file 
+.development.R
