@@ -11,6 +11,7 @@ load_all("rBExIS")
 check("rBExIS")
 
 # Here start functions implemented by the package
+require(rBExIS)
 
 ## options command to query and set rbexis options
 bexis.options()
