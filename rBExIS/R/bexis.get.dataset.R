@@ -1,13 +1,13 @@
+#' Getting data from BExIS
+#'
+#' The function provides access to dataset in BExIS.
+#' @param id Is the ID of the dataset you want to access
+#' @param base_url Is the URL that is use to talk to
+#'
+#' @export bexis.get.dataset_by
 
-
-bexis.get.dataset_by <- function(id){
-	read.csv(paste0("http://bexis.inf-bb.uni-jena.de:2201/DDM/Data/DownloadAsCsvData/", id))
+bexis.get.dataset_by <- function(id, base_url = bexis.options("base_url")) {
+	read.csv(paste0(get_download_url("base_url"), id))
 }
-
-mydata = bexis.get.dataset_by(id=123123)
-
-bexis.options = list("user_credentials" = "something")
-
-bexis.options$user_credentials
 
 
