@@ -2,8 +2,8 @@ Package: rBExIS
 Title: Exchange data and metadata between R and BExIS 
 Version: 0.0.1
 Authors@R: person("Claas-Thido", "Pfaff", email = "class-thido.pfaff@uni-leipzig.de", role = c("aut", "cre"))
-Description: Exchanges data and metadata between R and BExIS 
+Description: Exchanges data and metadata between R and BExIS. For a seamless data analyis workflow combining the BExIS data management platform with R.
 Depends: R (>= 3.1.3)
-License: What license is it under?
+License: MIT + file LICENSE
 LazyData: true
 Suggests: testthat

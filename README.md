@@ -1,6 +1,7 @@
 # rBExIS
 
-An R package to exchange data and metadata in between R and BExIS II.
+A package to exchange data and metadata in between R statistics and instances
+of the BExIS II data managemet workbench.
 
 ## Install
 
@@ -33,5 +34,7 @@ The id you find in the url of the dataset?
 ## Contribute
 
 * Fork
+* Fix
 * Send pull request
+* Wait and pray!
 
