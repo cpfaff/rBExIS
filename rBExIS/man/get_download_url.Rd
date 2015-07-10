@@ -5,7 +5,7 @@
 \title{Functions to provide helpers for other functions
 e.g. paste together a url after certain criteria}
 \usage{
-get_download_url(base_url)
+get_download_url(base_url, version)
 }
 \description{
 Functions to provide helpers for other functions

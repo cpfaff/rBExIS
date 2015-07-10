@@ -7,6 +7,7 @@
 #' @export bexis.get.dataset_by
 
 bexis.get.dataset_by <- function(id, base_url = bexis.options("base_url")) {
+	function_requires_base_url()
 	read.csv(paste0(get_download_url("base_url"), id))
 }
 
