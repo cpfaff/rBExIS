@@ -34,7 +34,7 @@ The id you find in the url of the dataset?
 ## Contribute
 
 * Fork
-* Fix
+* Implement/Fix
 * Send pull request
 * Wait and pray!
 
