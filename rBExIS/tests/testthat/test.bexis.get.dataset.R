@@ -1,6 +1,10 @@
-context("Download of data")
+context("The download of data")
 
-test_that("Can download a dataset", {
-			 #
+test_that("I can download a dataset", {
+	# fixme
+})
+
+test_that("I can download a subsetted dataset", {
+	# fixme
 })
 
