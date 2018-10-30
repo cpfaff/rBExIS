@@ -4,7 +4,10 @@
 
 # url related helpers
 get_download_url <- function(base_url, version){
-	return(paste0(bexis.options("base_url"), "/DDM/Data/DownloadAsCsvData/"))
+  
+  print(bexis.options("base_url"))
+  print(paste0(bexis.options("base_url"), "/API/Data/"))
+	return(paste0(bexis.options("base_url"), "/API/Data/"))
 }
 
 # check and feedback related

@@ -4,7 +4,8 @@
 \alias{bexis.get.dataset_by}
 \title{Getting data from BExIS}
 \usage{
-bexis.get.dataset_by(id, base_url = bexis.options("base_url"))
+bexis.get.dataset_by(id, base_url = bexis.options("base_url"),
+  token = bexis.options("token"))
 }
 \arguments{
 \item{id}{Is the ID of the dataset you want to access}
@@ -26,4 +27,3 @@ The function provides access to data that on a BExIS II instance.
         bexis.get.dataset_by(id=8)
       }
 }
-

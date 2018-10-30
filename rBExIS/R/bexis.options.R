@@ -22,7 +22,7 @@ bexis.options = function(...) {
 		  .bexis.options[names(lst)] = lapply(lst, gsub, pattern = "\\s", replacement="")
 		  if (!is.null(lst$base_url)) {
 			 .bexis.options["base_url"] = sub(.bexis.options["base_url"], pattern = "(/)?$", replacement = "")
-			 .bexis.options["base_url"] = sub(.bexis.options["base_url"], pattern = "^(http://)?", replacement = "http://")
+
 		  }
 		  .bexis.env$.bexis.options = .bexis.options
 		}

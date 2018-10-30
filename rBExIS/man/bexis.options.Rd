@@ -13,4 +13,3 @@ bexis.options(...)
 This function is used to query and set rBExIS R package specific options
 like the URL to the BEFdata portal and the URL to the tematres thesaurus.
 }
-
