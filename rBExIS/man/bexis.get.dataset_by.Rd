@@ -13,6 +13,8 @@ bexis.get.dataset_by(id, base_url = bexis.options("base_url"),
 \item{base_url}{Is the URL of the BExIS instance (e.g. www.mybexis.de)
 If the base url is already provided by the function bexis.options()
  then this value will be taken and you do not need to provide it again.}
+
+\item{token}{is an authorization key to access the data in Bexis. Get the token key in practice user profile.}
 }
 \value{
 The function returns a data frame of the requested dataset.

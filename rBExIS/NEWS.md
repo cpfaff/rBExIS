@@ -1,7 +1,7 @@
-rBExIS 0.0.1
+rBExIS 1.0.0
 ==================
 
-* Introduces new package for the exchange with BExIS instances
-  of the second generation
-* Adds options and some basic download functionality
+* The API's are secured and must be authorized and authenticated.
+* Support´s data, metadata and structure api calls from bexis 2.12.1
+
 

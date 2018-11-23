@@ -1,6 +1,6 @@
 Package: rBExIS
 Title: Exchange data and metadata between R and BEXIS II
-Version: 0.0.1
+Version: 1.0.0
 Authors@R: person("Claas-Thido", "Pfaff", email = "class-thido.pfaff@uni-leipzig.de", role = c("aut", "cre"))
 Description: Exchanges data and metadata between R and a BEXIS II instance. The package provides a seamless
     data analyis workflow combining the BEXIS data management platform with R.

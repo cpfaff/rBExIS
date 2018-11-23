@@ -6,9 +6,10 @@
 get_download_url <- function(base_url, version){
   
   print(bexis.options("base_url"))
-  print(paste0(bexis.options("base_url"), "/API/Data/"))
-	return(paste0(bexis.options("base_url"), "/API/Data/"))
+  print(paste0(bexis.options("base_url"), "/API/"))
+	return(paste0(bexis.options("base_url"), "/API/"))
 }
+
 
 # check and feedback related
 function_requires_base_url <- function() {

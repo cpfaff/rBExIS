@@ -6,30 +6,66 @@ of the BExIS II data managemet workbench.
 ## Install
 
 ```
-# install devtools
+#install devtools and add to libary
 install.packages("devtools")
-# install rBExIS package from github
 library(devtools)
-install_github("cpfaff/rBExIS", subdir = "rBExIS")
+
+#install required packages
+install.packages("httr")
+install.packages("XML")
+install.packages("jsonlite")
+install_github("BEXIS2/rBExIS", subdir = "rBExIS")
+
+#add packages to the libary
+library(httr)
+library(jsonlite)
+library(XML)
+library(rBExIS)
+
+# load/reload the bexis package functions
+load_all("rBExIS")
+
+# check package for consistency
+check("rBExIS")
+
+# Here start functions implemented by the package
+require(rBExIS)
+
 ```
 
 ## Download functionality
 
-* Get single and multiple datasets
-
+* get list of all dataset ids
 ```r
-bexis.get.dataset_by(id=xy)
+bexis_dataset_ids <- bexis.get.datasets()
 ```
-
-The id you find in the url of the dataset?
-
-## Upload functionality
-
-* Upload new or update existing datasets
+* get data from bexis from dataset with id = xy
+```r
+bexis_data <- bexis.get.dataset_by(id = xy)
+```
 
 ## Access Metadata
 
-* ...
+* get list of all metadata objects
+```r
+bexis_metadata_list <- bexis.get.metadatas()
+```
+* get metadata from bexis from dataset with id = xy
+```r
+bexis_metadata <- bexis.get.metadata_by(id = xy)
+```
+
+## Access Structure
+
+* get list of all structure ids
+```r
+bexis_structures <- bexis.get.structures()
+```
+* get structure from bexis with id = xy
+```r
+bexis_structure <- bexis.get.structure_by(xy)
+```
+
 
 ## Contribute
 
